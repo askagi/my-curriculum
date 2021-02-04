@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Currículo</title>
+
+    <style>
+        .bd {
+            border: solid 1px gray;
+        }
+        .opacidade{
+            opacity: .5;
+            transition: opacity .5s;
+            z-index: 999;
+        }
+
+        .opacidade:hover{
+            opacity: .8;
+        }
+    </style>
+</head>
+
+
+<body class="container" style="background-image: url('img/fundo.png'); background-attachment: fixed; overflow-x: hidden;">
+    <div class="row">
+        <div class="col-md-12 offset-md-8 p-5 ml-n5">
+            <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="1500" class="opacidade float position-fixed">
+                <div class="bg-dark p-3 rounded opacidade" >
+                    <audio controls autoplay src="audio/Azul.mp3"></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white p-5 mt-3 mb-3 rounded" data-aos="fade-right" data-aos-duration="700">
+        <section class="row mt">
+            <header class="col-md-12">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="rounded" src="img/foto3.jpg" width="100%"
+                            height="100%" alt=""> <!-- https://source.unsplash.com/random?people,face -->
+                    </div>
+
+                    <div class="col-md-7 ">
+                        <h1 class="d-inline text-muted">José Costa dos Santos Júnior</h1>
+                        <p>Brasileiro, Solteiro, 27 anos <br>
+                            Endereço - Rua XYZ <br>
+                            Cidade - (Estado) <br>
+                            Telefone: (xx) - 9xxxxxxxx <br>
+                            Email: fulano@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </header>
+        </section>
+
+        <section class="row">
+            <div class="col-md-12  mt-5">
+                <h4 class="text-muted">Formação</h4>
+                <ul>
+                    <li>Bacharelando em Sistemas de informação pela Universidade do Estado da Bahia (UNEB)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="row">
+            <div class="col-md-12 mt-5">
+                <h4 class="text-muted">Cursos Complementares</h4>
+                <ul>
+                    <li>UML - Guia Básico para Análise e Projeto de Sistemas - Cursado na Udemy em 2018</li>
+                    <li>Git e GitHub para Iniciantes - Cursado na Udemy em 2018</li>
+                    <li>Desenvolvimento Android Iniciante - Cursado em 2018</li>
+                    <li>Desenvolvimento Android: Aprenda 15 Apps - Cursado em 2018</li>
+                    <li>Java: Criando sua própria interface gráfica (GUI) - Cursado em 2019</li>
+                    <li>Desenvolvimento Android Completo - Cursado na Udemy em 2019</li>
+                    <li>Curso Completo de PHP - Cursado na Udemy em 2020</li>
+                    <li>Introdução a Laravel - Cursado na Udemy em 2020</li>
+                    <li>Desenvolvimento Web Completo - Cursado na Udemy em 2020</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="row mb-5">
+            <div class="col-md-12  mt-5">
+                <h4 class="text-muted">Experiência Profissional</h4>
+                <ul>
+                    <li class="mb-2 mt-3">
+                        <strong>2015 - 2017 - Tribunal de Contas dos Municípios de Alagoinhas (TCM)</strong><br>
+                        Cargo: Estagiário, Suporte técnico e auxiliar administrativo, Arquivista
+                    </li>
+
+                    <li class="mb-2">
+                        <strong>1 Mês - Future Service</strong><br>
+                        Cargo: Estagiário, Técnico de computadores
+                    </li>
+
+                    <li class="mb-2">
+                        <strong>4 Meses - Edutec</strong><br>
+                        Cargo: Estagiário, Desenvolvedor
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="row">
+            <footer class="col-md-12">
+                <p class="text-center">Copyright &copy; <a href="https://github.com/askagi" target="_blank" class="text-muted">José Costa dos Santos júnior</a></p>
+            </footer>
+        </section>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="bootstrap4/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
